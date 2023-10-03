@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    background-image: url("./background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .App {
+        background-position: right;
+    }
+ 
+}
+
+@media screen and (max-width: 1024px) {
+    .App {
+        background-position: right;
+    }
+ 
+ 
+}
+
+.linkTree {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.bot {
+    padding: 10px;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(236, 99, 99, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
